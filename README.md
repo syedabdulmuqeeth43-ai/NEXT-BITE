@@ -1,36 +1,310 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ❤️ Mom's Love Kitchen
 
-## Getting Started
+> Homemade Comfort Food Delivered With Love
 
-First, run the development server:
+A premium full-stack cloud kitchen platform built for modern food delivery experiences.  
+Designed for students, employees, bachelors, and families who miss homemade food.
+
+This platform combines:
+- Premium UI/UX
+- Real-time food ordering
+- AI-powered meal recommendations
+- Firebase backend
+- Secure authentication
+- Live order tracking
+- Admin & delivery dashboards
+- Modern animations
+- Mobile-first design
+
+---
+
+# 🌟 Features
+
+## 🍽️ Customer Features
+- Browse premium food menu
+- Search & filter dishes
+- Add to cart
+- Wishlist system
+- Secure checkout
+- Razorpay payment integration
+- Cash on Delivery
+- Real-time order tracking
+- AI meal recommendations
+- Responsive mobile experience
+- PWA support
+- Push notifications
+- Profile & order history
+
+---
+
+## 🤖 Ammi AI Assistant
+An AI-powered food assistant that recommends meals based on:
+- Mood
+- Comfort cravings
+- Healthy meals
+- Late-night hunger
+- Student budget meals
+
+Features:
+- Interactive chat UI
+- Animated recommendations
+- Smart combo suggestions
+- Personalized meal discovery
+
+---
+
+## 🛠️ Admin Dashboard
+- Revenue analytics
+- Order management
+- Menu management
+- Coupon system
+- Banner management
+- Inventory control
+- User management
+- Delivery management
+- Real-time analytics
+
+---
+
+## 🚴 Delivery Partner Panel
+- Delivery assignment
+- Earnings dashboard
+- Live order updates
+- Delivery status management
+- Route tracking UI
+
+---
+
+# 🏗️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Next.js 16 | Frontend Framework |
+| React 19 | UI Library |
+| TypeScript | Type Safety |
+| Tailwind CSS v4 | Styling |
+| Framer Motion | Animations |
+| GSAP | Advanced Motion Effects |
+| Firebase | Backend & Authentication |
+| Firestore | Database |
+| Firebase Storage | Media Storage |
+| Zustand | State Management |
+| React Query | Server State |
+| Razorpay | Payments |
+| Zod | Validation |
+| React Hook Form | Forms |
+| Lucide React | Icons |
+
+---
+
+# 🎨 UI/UX Highlights
+
+- Cinematic animations
+- Glassmorphism UI
+- Floating food cards
+- Steam food effects
+- Premium gradients
+- Smooth page transitions
+- Interactive micro-animations
+- Mobile-first responsive design
+- Cozy homemade food branding
+
+---
+
+# 🔐 Authentication System
+
+Implemented using Firebase Authentication:
+- Email/password login
+- Google authentication
+- Forgot password flow
+- Protected routes
+- Role-based access
+- Admin authorization
+- Delivery partner authorization
+
+---
+
+# 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/moms-love-kitchen.git
+```
+
+Move into project directory:
+
+```bash
+cd moms-love-kitchen
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🔥 Firebase Setup
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_RAZORPAY_KEY_ID=your_key
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+
+# 💳 Razorpay Integration
+
+Supports:
+- UPI
+- Cards
+- Net Banking
+- Wallets
+- COD
+
+---
+
+# 📱 PWA Support
+
+The application supports:
+- Offline access
+- Installable mobile app experience
+- Service worker caching
+- Mobile splash screens
+
+---
+
+# 📊 Production Features
+
+- SEO optimization
+- Open Graph metadata
+- Dynamic routing
+- Lazy loading
+- Image optimization
+- Error boundaries
+- Performance optimization
+- Responsive layouts
+- Lighthouse optimized
+
+---
+
+# 🚀 Deployment
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy easily using:
+- Vercel
+- Firebase Hosting
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+ ├── app/
+ ├── components/
+ ├── services/
+ ├── firebase/
+ ├── hooks/
+ ├── lib/
+ ├── providers/
+ ├── store/
+ ├── styles/
+ ├── types/
+ └── utils/
+```
+
+---
+
+# ❤️ Brand Vision
+
+Mom’s Love Kitchen was created to provide:
+> “Food that feels like home.”
+
+The platform emotionally connects with:
+- Students
+- Bachelors
+- Employees
+- Hostel residents
+- People living away from family
+
+---
+
+# 📸 Screenshots
+
+Add your screenshots here:
+- Homepage
+- Menu page
+- AI assistant
+- Admin dashboard
+- Mobile UI
+- Checkout flow
+
+---
+
+# 📈 Future Improvements
+
+- AI nutrition tracking
+- Subscription meal plans
+- Voice ordering
+- Smart delivery prediction
+- Loyalty rewards
+- Referral system
+- Advanced analytics
+
+---
+
+# 👨‍💻 Developer
+
+**Syed Abdul Muqeeth**  
+AI & Data Science Engineer | Python Developer | Generative AI Enthusiast
+
+📍 Hyderabad, India
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ Support
+
+If you like this project:
+- Star the repository
+- Fork the project
+- Share feedback
+- Contribute improvements
+
+---
+
+# ❤️ Made With Love
+
+Built with passion, creativity, and modern web technologies to deliver a premium homemade food experience.
